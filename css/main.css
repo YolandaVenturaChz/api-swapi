@@ -21,3 +21,12 @@ hr{
   padding: 6px;
   margin-bottom: 3vh;
 }
+.row.flex-direction{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.margin-top-3{
+  margin-top: 3vh;
+}

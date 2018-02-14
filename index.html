@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Swapi App</title>
+    <link rel="icon" type="image/png" href="assets/images/logo.png">
+    <!--Añadiendo color a la barra de navegador que se verá desde versión movile-->
+    <meta name="theme-color" content="#ea292a"/>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
@@ -30,40 +33,90 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
-          <div class="col-3 col-lg-2">
+          <div class="col-3 col-sm-2 col-lg-2">
             <div class="container-character">
-              <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid">
+              <a href="#">
+                <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded" data-toggle="modal" data-target="#myModal">
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
 
+
+<!--Modal-->
+<div class="modal fade" id="myModal">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title text-center">Star Wars Characters</h4>
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+        <div class="row flex-direction">
+          <div class="col-4">
+            <img src="http://images.yodibujo.es/_uploads/_tiny_galerie/20151145/noticia-los-personajes-de-star-wars_nh9.jpg" alt="" class="img-fluid rounded">
+          </div>
+        </div>
+        <div class="row margin-top-3">
+          <div class="col-12">
+            <h6 class="text-center">Name: <span>name</span></h6>
+            <h6 class="text-center">Hair color: <span>hair</span></h6>
+            <h6 class="text-center">Skin color: <span>skin</span></h6>
+            <h6 class="text-center">Eye color: <span>eye</span></h6>
+            <h6 class="text-center">Birth year: <span>birth</span></h6>
+            <h6 class="text-center">Gender: <span>gender</span></h6>
+          </div>
+        </div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
     <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"     crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js"     integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
