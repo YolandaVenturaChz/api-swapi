@@ -1,0 +1,23 @@
+body {
+  background-image: url(https://wallpapercave.com/wp/bV3WiYh.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+  nav.navbar.navbar-light.bg-faded {
+  background-color: rgba(234,41,42, 0.3);
+}
+a.navbar-brand{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+hr{
+  border: 1px solid #FFF;
+}
+.container-character{
+  background-color: rgba(234,41,42, 0.3);
+  padding: 6px;
+  margin-bottom: 3vh;
+}
