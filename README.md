@@ -54,10 +54,10 @@ Los atributos que presenta esta Api son los siguientes:
 ## Imagenes :
 
 ### Desktop
-![Con titulo](assets/images/2.PNG)
+![Con titulo](public/assets/images/2.PNG)
 ### Mobile
 
-![Con titulo](assets/images/1.PNG)
+![Con titulo](public/assets/images/1.PNG)
 
 ## Formas de distribucción del proyecto
 * Andrea : Manejo de la API Swapi
