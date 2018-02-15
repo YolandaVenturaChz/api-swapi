@@ -1,13 +1,11 @@
 # Swapi
 ---
 
-## 
-
 ## ¿Qué es Swapi?
 Es una API la cual se encuentra fusionado de manera creativa con la primeras letras de "Stars Wars" y "API" y es una fuente de datos cuantificada y accesible por programas del mundo para todos los datos del universo canónico de Star Wars!contenido en línea, presentando a todos los personajes, películas, especies, naves espaciales, vehículos y planetas de Star Wars.
 
 ## ¿Cómo usar Swapi ?
-Se puede acceder a todos los datos a través de la API web HTTP. 
+Se puede acceder a todos los datos a través de la API web HTTP.
 También proporcionan bibliotecas de ayuda para los lenguajes de programación populares para que pueda usar swapi en el lenguaje de programación favorito, en el estilo que más le convenga.
 
 ## Iniciando Swapi
@@ -16,7 +14,7 @@ También proporcionan bibliotecas de ayuda para los lenguajes de programación p
 
 * Por aporte de la api se indica Utilizar httpie para los ejemplos, ya que muestra las respuestas muy bien y nos da mucha más información útil. Si no se desea asi, simplemente use el comando curl .
 
-* Y asi se realizaria el uso gratuito de esta API 
+* Y asi se realizaria el uso gratuito de esta API
 
 ## Lo que Proporciona
 ### Codificaciones
@@ -31,7 +29,7 @@ Wookiee - es para los fanaticos de corazon que saben y reconocen el idioma wooki
 ### Atributos:
 Los atributos que presenta esta Api son los siguientes:
 * name: El nombre de esta persona.
-* birth_year : El año de nacimiento de la persona, usando el estándar en el universo de BBY o ABY - Antes de la Batalla de Yavin o Después de la Batalla de Yavin. 
+* birth_year : El año de nacimiento de la persona, usando el estándar en el universo de BBY o ABY - Antes de la Batalla de Yavin o Después de la Batalla de Yavin.
 * eye_color : El color de ojos de esta persona. Será "desconocido" si no se conoce o "n / a" si la persona no tiene un ojo.
 * gender : El género de esta persona. Ya sea "Hombre", "Mujer" o "desconocido", "n / a" si la persona no tiene un sexo.
 * hair_color:  El color de cabello de esta persona. Será "desconocido" si no se conoce o "n / a" si la persona no tiene cabello.
@@ -46,24 +44,27 @@ Los atributos que presenta esta Api son los siguientes:
 * url: la URL hipermedia de este recurso.
 * created: el formato de fecha ISO 8601 de la hora en que se creó este recurso.
 * edited: el formato de fecha ISO 8601 de la hora en que se editó este recurso.
+
 ### Swapi en Java
 * Aparte de encontrarse originalmente esta API en Phyton tambien esta para Java y otros mas.
 
 ## Acerca del Creador
 *  Paul Hallett realizando la Api de pokemon se inspiro en la pelicula de stars wars y decidio crear esta nueva API en base a todos los datos recopilados de la pelicula Stars Wars.
+
 ## Imagenes :
+
 ### Desktop
-![Con titulo](assets/images/2.PNG "desktop")
+![Con titulo](public/assets/images/2.PNG)
 ### Mobile
-![Con titulo](assets/images/1.PNG "mobile")
+
+![Con titulo](public/assets/images/1.PNG)
 
 ## Formas de distribucción del proyecto
-* Andrea : Manejo de la API Swapi 
+* Andrea : Manejo de la API Swapi
 * Yosselyn: Enmaquetado de las ventanas.
 * Yolanda : Readme y busqueda de información.
 
 ## Integrantes :
-+ Yosselyn
++ Yosseline.
 + Andrea
 + Yolanda
-
