@@ -1,28 +1,33 @@
-window.addEventListener('load', function() {
-  const characterPic = document.getElementsByClassName('container-character')
-  const characterModal = document.getElementsByClassName('character-info')
+window.addEventListener('load', function () {
+  const modalImage = document.getElementById('modalImage');
+  const modalInfo = document.getElementById('modalContent');
+  const modalContent = '';
+  const people;
 
   $.ajax({
-    url: `https://swapi.co/api/people/${img}`
-  }).done(handleResponse).fail(handleError);
+    url: 'https://swapi.co/api/people',
+    dataType: 'JSON',
+    method: 'GET',
+  }).done(starwarsPeople).fail(handleError);
 
+  function starwarsPeople() {
+    people = starwarsPeople.results;
+    // console.log(people);
 
-  /* form.addEventListener('click', function (e) {
-  }); */
-  function handleResponse(data) {
-    const name = data.name;
-    const birth = data.birth_year;
-    const gender = data.gender;
-    const height = data.height;
-    const eyes = data.eye_color;
-    const hair = data.hair_color;
-    const skin = data.skin_color;
-  
-/*     $('main').append('<div><h2>' + name + '</h2><h3>Born in ' + birth + '</h3><p>Gender: ' + gender + '</p><p>Height: ' + height + '</p><p>Eyes color: ' + eyes + '</p><p>Hair color : ' + hair + '</p><p>Skin color: ' + skin + '</p>');
-    console.log('listo!'); */
-  
+    for (var i = 0; i < people.length; i++) {
+      modalContent += '<h6 class="text-center">' + people[i].name + '</h6>';
+      modalContent += '<h6 class="text-center">' + people[i].hair_color + '</h6>';
+      modalContent += '<h6 class="text-center">' + people[i].skin_color + '</h6>';
+      modalContent += '<h6 class="text-center">' + people[i].eye_color + '</h6>';
+      modalContent += '<h6 class="text-center">' + people[i].birth_year + '</h6>';
+      modalContent += '<h6 class="text-center">' + people[i].gender + '</h6>';
+    }
+
+    modalInfo.innerHTML = modalContent;
   };
+
   function handleError() {
     console.log('Se ha presentado un error.');
   }
+
 });
