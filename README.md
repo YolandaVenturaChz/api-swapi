@@ -53,9 +53,9 @@ Los atributos que presenta esta Api son los siguientes:
 *  Paul Hallett realizando la Api de pokemon se inspiro en la pelicula de stars wars y decidio crear esta nueva API en base a todos los datos recopilados de la pelicula Stars Wars.
 ## Imagenes :
 ### Desktop
-![Con titulo](assets/images/2.PNG "titulo")
+![Con titulo](assets/images/2.PNG "desktop")
 ### Mobile
-![Con titulo](assets/images/1.PNG "titulo")
+![Con titulo](assets/images/1.PNG "mobile")
 
 ## Formas de distribucción del proyecto
 * Andrea : Manejo de la API Swapi 
